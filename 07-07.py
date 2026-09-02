@@ -31,3 +31,8 @@ if st.button("submit"):
     st.write(db.create_tb(db_name = "R_FORM", tb_name = "STUDENT"))
     db.insert_value(db_name = "R_FORM", tb_name = "STUDENT", name=name, age=age, gender=gender, city=city, email=email)
     st.success("form submitted successful", icon = "✅")
+
+
+    # Hello Aftab How are you?
+    # I am fine what about you?
+    
