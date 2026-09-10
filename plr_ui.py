@@ -4,8 +4,8 @@
 import streamlit as st
 import joblib 
 
-model = joblib.load("/Users/cbitss/Aftab/Cbitss/6_PM_Agentic_AI/ML/plr.joblib")
-poly = joblib.load("/Users/cbitss/Aftab/Cbitss/6_PM_Agentic_AI/ML/poly.joblib")
+model = joblib.load("plr.joblib")
+poly = joblib.load("poly.joblib")
 
 st.title("Icream Sale Unit Predicter")
 
